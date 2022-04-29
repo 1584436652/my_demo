@@ -30,9 +30,9 @@ def baidu_recognition(img_paths):
     :param img_paths: 图片地址
     :return:
     """
-    app_id = '24595087'
-    api_key = 'A9Dqch23gVtuPBfXmBeVGfoE'
-    secret_key = 'qm5p1RwwzZBrgaXG5C4GbCKM2BMhgjwP'
+    app_id = ''
+    api_key = ''
+    secret_key = ''
     # 初始化AipOcr
     aip_ocr = AipOcr(app_id, api_key, secret_key)
     # with open(img_paths, 'rb') as f:
